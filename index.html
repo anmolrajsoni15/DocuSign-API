@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>DocuSign</title>
+</head>
+<body>
+    <div>
+        <div class="heading">
+            <h1>DocuSign</h1>
+        </div>
+        <form action="/send-envelope" method="post" class="formContainer">
+            <div class="data">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+            </div>
+            <div class="data">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+            </div>
+            <div class="data">
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" placeholder="Enter your phone">
+            </div>
+            <div class="data">
+                <label for="company">Company</label>
+                <input type="text" name="company" id="company" placeholder="Enter your company">
+            </div>
+            <input type="submit" class="submitButton">
+        </form>
+    </div>
+</body>
+</html>
